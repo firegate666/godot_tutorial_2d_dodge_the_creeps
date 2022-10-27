@@ -49,4 +49,4 @@ jobs:
         files: |
           ${{ github.workspace }}/builds/win/DodgeTheCreeps-win.zip
           ${{ github.workspace }}/builds/osx/DodgeTheCreeps-mac.zip
-          ${{ github.workspace }}/builds/osx/DodgeTheCreeps-linux.zip
+          ${{ github.workspace }}/builds/linux/DodgeTheCreeps-linux.zip
