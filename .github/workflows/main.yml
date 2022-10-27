@@ -48,7 +48,7 @@ jobs:
         tag_name: ${{ steps.tag_version.outputs.TAG_VERSION }}
         files: |
           ${{ steps.export.outputs.archive_directory }}
-          ${{ GITHUB_WORKSPACE }}/builds
+          ${{ github.workspace }}/builds
 
     - name: Archive production artifacts
       uses: actions/upload-artifact@v3
